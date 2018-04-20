@@ -1,0 +1,30 @@
+{
+  "name": "github-commit",
+  "version": "1.0.0",
+  "description": "commit a single file to a Github repository",
+  "main": "index.js",
+  "bin": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sepehr-laal/github-commit.git"
+  },
+  "keywords": [
+    "github",
+    "commit",
+    "git"
+  ],
+  "author": "Sepehr Laal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sepehr-laal/github-commit/issues"
+  },
+  "homepage": "https://github.com/sepehr-laal/github-commit#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-runtime": "^6.26.0",
+    "debug": "^3.1.0",
+    "promisify-child-process": "^1.0.6",
+    "rc": "^1.2.6",
+    "tmp": "0.0.33"
+  }
+}
